@@ -10,11 +10,6 @@ const targaryen = new Family('Targaryen', ['Dragonstone', 'Summerhall']);
 
 const families: Family[] = [lannister, targaryen];
 
-// function getCastlesByFamily(
-//   family: string,
-//   callback: (err?: Error, castles?: string[]) => void
-// ): void {}
-
 interface CastleCallback {
   (err?: Error, castles?: string[]): void;
 }
